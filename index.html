@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les bases du web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav id="main-nav">
+            <img src="img/avatar.png" alt="Avatar" /> <!-- Renseignez entre les guillements de src=“” le lien de l’image -->
+            <ul>
+                <li><a href="#">À propos</a></li>
+                <li class="active"><a href="#">Bases du Web</a></li>
+                <li><a href="#">Plan d'apprentissage</a></li>
+                <li><a href="#">Projets</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Les bases du web par [DevAx/Axel] <!-- Modifiez votre prénom --></h1>
+        <p class="subtitle">Une page pour concentrer les informations clés du Web et du développement !</p>
+    </header>
+
+    <section id="course">
+        <h2>Cours suivi</h2>
+        <a href="https://openclassrooms.com/fr/courses/1946386-comprendre-le-web" target="_blank">
+            <img src="img/cours.png" alt="Cours Comprendre le web" />
+        </a>
+    </section>
+
+    <section id="concepts">
+        <h2>Concepts clés</h2>
+        <div class="flex">
+            <article class="card">
+                <h3>Partie 1 - Découvrez le web et ses origines</h3>
+                <div class="dropdown">
+                    <h4>Web</h4>
+                    <p>Ensemble des pages accessibles sur Internet.</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Internet</h4>
+                    <p>Réseau mondial de serveurs interconnectés.</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Cloud</h4>
+                    <p>Stockage et traitement des données sur des serveurs distants.</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>W3C</h4>
+                    <p>Organisation qui définit les standards du web.</p> <!-- Renseignez la définition -->
+                </div>
+            </article>
+            <article class="card">
+                <h3>Partie 2 - Distinguez les langages du Web</h3>
+                <div class="dropdown">
+                    <h4>Langages client</h4>
+                    <p>Langages exécutés sur le navigateur de l'utilisateur (ex: HTML, CSS, JavaScript).</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Navigateurs</h4>
+                    <p>Logiciels permettant d'accéder et d'afficher des pages web.</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Langages serveur</h4>
+                    <p>Langages exécutés sur le serveur (ex: PHP, Python, Ruby).</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Frameworks</h4>
+                    <p>Ensemble d'outils et de bibliothèques facilitant le développement d'applications web.</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Bases de données</h4>
+                    <p>Systèmes permettant de stocker et de gérer des données (ex: MySQL, MongoDB).</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Site responsive</h4>
+                    <p>Site web s'adaptant à toutes les tailles d'écran (mobiles, tablettes, ordinateurs).</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Application mobile</h4>
+                    <p>Application conçue pour être utilisée sur des appareils mobiles (smartphones, tablettes).</p> <!-- Renseignez la définition -->
+                </div>
+            </article>
+            <article class="card">
+                <h3>Partie 3 - Découvrez le fonctionnement du réseau</h3>
+                <div class="dropdown">
+                    <h4>Serveurs</h4>
+                    <p>Machines hébergeant des applications et des données, accessibles via le réseau.</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Adresse IP</h4>
+                    <p>Identifiant unique attribué à chaque appareil sur un réseau.</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Nom d’hôte et DNS</h4>
+                    <p>Nom d'un serveur sur le réseau et système de résolution de noms.</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Protocoles</h4>
+                    <p>Ensemble de règles régissant les échanges de données sur un réseau.</p> <!-- Renseignez la définition -->
+                </div>
+            </article>
+            <article class="card">
+                <h3>Partie 4 - Identifiez les métiers du web</h3>
+                <div class="dropdown">
+                    <h4>Développeurs</h4>
+                    <p>Professionnels créant et maintenant des applications web.</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Product Managers et chefs de projets</h4>
+                    <p>Responsables de la planification et de la gestion des projets de développement.</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Designers</h4>
+                    <p>Professionnels créant l'interface et l'expérience utilisateur des applications web.</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Testeurs</h4>
+                    <p>Professionnels vérifiant la qualité et le bon fonctionnement des applications web.</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Techniciens informatique</h4>
+                    <p>Professionnels assurant le support technique et la maintenance des systèmes informatiques.</p> <!-- Renseignez la définition -->
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="languages">
+        <h2>Langages de développement web</h2>
+        <div class="slider">
+            <div class="slider-content">
+                <article class="card">
+                    <div class="HTML">
+                        <img src="img/html.png" alt="HTML" />
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Front-End</p>
+                        <p>Squelette du site Web. Il définit la structure de  base du contenu, comme les titres, les paragraphes, les images, etc.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="CSS">
+                        <img src="img/css.png" alt="CSS" />
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Front-End</p>
+                        <p>Langage de style utilisé pour décrire la présentation des documents HTML.</p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="JavaScript">
+                        <img src="img/js.png" alt="JavaScript" />
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Front-End</p>
+                        <p>Langage de programmation permettant d'ajouter de l'interactivité aux pages web.</p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="JavaScript">
+                        <img src="img/js.png" alt="JavaScript" /> <!-- Renseignez entre les guillements de src=“” le lien de l’image -->
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Back-End</p>
+                        <p>Langage de programmation utilisé pour créer des applications web côté serveur.</p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="PHP">
+                        <img src="img/php.png" alt="PHP" /> <!-- Renseignez entre les guillements de src=“” le lien de l’image -->
+                        <h3>PHP</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Back-End</p>
+                        <p>Langage de script côté serveur utilisé pour développer des applications web dynamiques.</p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="Java">
+                        <img src="img/java.png" alt="Java" /> <!-- Renseignez entre les guillements de src=“” le lien de l’image -->
+                        <h3>Java</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Back-End</p>
+                        <p>Langage de programmation orienté objet utilisé pour développer des applications web et mobiles.</p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="Python">
+                        <img src="img/python.png" alt="Python" /> <!-- Renseignez entre les guillements de src=“” le lien de l’image -->
+                        <h3>Python</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Back-End</p>
+                        <p>Langage de programmation polyvalent utilisé pour le développement web, l'analyse de données et l'intelligence artificielle.</p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="C#">
+                        <img src="img/c.png" alt="C#" /> <!-- Renseignez entre les guillements de src=“” le lien de l’image -->
+                        <h3>C#</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Back-End</p>
+                        <p>Langage de programmation orienté objet utilisé pour développer des applications web et mobiles.</p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="MySQL">
+                        <img src="img/sql.png" alt="SQL" /> <!-- Renseignez entre les guillements de src=“” le lien de l’image -->
+                        <h3>SQL</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Bases de données</p>
+                        <p>Langage de requête utilisé pour interagir avec des bases de données relationnelles.</p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="slider-arrows">
+            <img src="img/left.png" alt="Gauche" id="left" />
+            <img src="img/right.png" alt="Droite" id="right" />
+        </div>
+    </section>
+
+    <section id="tools">
+        <h2>Boîte à outils du développeur</h2>
+        <ul class="card">
+            <li><strong>IDE comme VS Code</strong> : Environnement de développement intégré utilisé pour écrire et tester du code.</li>
+            <li><strong>Github</strong> : Plateforme de gestion de versions et de collaboration pour le code source.</li>
+            <li><strong>Librairies / bibliothèques</strong> : Ensembles de fonctions et de ressources réutilisables pour faciliter le développement.</li>
+            <li><strong>Frameworks</strong> : Structures de développement qui facilitent la création d'applications. Exemples : Django (Python), React (JavaScript), .NET (C#).</li>
+        </ul>
+    </section>
+            <img src="img/cours.png" alt="JavaScript" /> <!-- Renseignez entre les guillements de src=“” le lien de l’image -->
+</body>
+</html>
